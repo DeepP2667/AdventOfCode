@@ -20,6 +20,6 @@ for line in lines:
         start += 1
         end -= 1
 
-    total_calibration += int(f"{first}{second}")
+    total_calibration += first * 10 + second
     
 print(total_calibration)
